@@ -11,8 +11,9 @@ namespace consultacita
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
-		}
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new views.LoginPage());
+        }
 
 		protected override void OnStart ()
 		{
